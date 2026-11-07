@@ -27,3 +27,17 @@ prima di iniziare e aggiornalo alla fine di ogni fase.
 - Non inventare requisiti di business: se un dato manca, chiedilo.
 - Non scrivere mai segreti nel codice o nei file versionati: usa Key Vault e managed identity.
 - Rispetta la baseline aziendale in `.github/skills/security-baseline/`.
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in GitHub Issues on `maurominella/smart-meeting-rooms` (via `gh` CLI). See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `GLOSSARY.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.
